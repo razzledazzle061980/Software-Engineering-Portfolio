@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>V:\School\PROGRAMMING LANGUAGES\MODULE 4\x64\Debug\Module Four Assignments.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>V:\School\PROGRAMMING LANGUAGES\MODULE 4\Module Four Assignments\FahrenheitTemperatures.txt</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
