@@ -1,9 +1,7 @@
 <h1 align="center"><u>Software Engineering Portfolio</u></h1>
 
 <h3 align="center">Having a love in technology and an interest for creating applications, I decided to \n" + "get my Bachelor's in Software Engineering so I can use my talent and knowledge to\n" + "develop applications that may be beneficial to users.</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=razzledazzle061980" alt="razzledazzle061980" /></a> </p>
-
+\
 - 🌱 I’m currently learning **System Analysis and Design, Computational Graphics and Visualization and Software Security**
 
 - 📫 How to reach me **razzledazzle061980@gmail.com**
