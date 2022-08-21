@@ -8,13 +8,18 @@
 
 1.  <b>Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?</b>
     <br />The Gamin Room is the client, it doesn't say anything more about the client.  The type of software they want designed is a web-based game.<br />
+    
 2.  <b>What did you do particularly well in developing this documentation?</b>
      <br />I'm not sure I did anything particularly well in developing this documentation.  I am very well versed in html and css but do not have much experience with markdown.<br />
+     
 3.  <b>What about the process of working through a design document did you find helpful when developing the code?</b>
     <br />I found the architecture and design constraints extremely helpful.  The requirements could be equally helpful.  These tell you the type of software to be developed and the platform that will be used (Cloud or Traditional)<br />
+    
 4.  <b>If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?</b>
     <br />I would say the evaluation, to improve upon it I would say being more detailed and provide more information.<br />
+    
 5.  <b>How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?</b>
     <br />I interpreted the user's needs based on statements by the client.  It is important to consider the client needs because it is who you are designing the software for and ultimately it is the client's satisfaction with the software you are seeking.<br />
-6.  <b>How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?</b>  
+    
+6.  <b>How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?</b>
     <br />I would approach designing software with an open mind and no misconceptions.  In the future I will use proper industry guidelines and modern trends to design applications
