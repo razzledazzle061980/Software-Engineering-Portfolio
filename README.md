@@ -1,4 +1,4 @@
-# Software-Engineering-Portfolio
+<h1 align="center"><u>Software Engineering Portfolio</u></h1>
 
 <h3 align="center">Having a love in technology and an interest for creating applications, I decided to \n" + "get my Bachelor's in Software Engineering so I can use my talent and knowledge to\n" + "develop applications that may be beneficial to users.</h3>
 
