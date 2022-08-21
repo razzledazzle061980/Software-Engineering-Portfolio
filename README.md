@@ -8,6 +8,6 @@
 * [CS-230 Operating Platforms](https://github.com/razzledazzle061980/Software-Engineering-Portfolio/tree/master/CS-230%20Operating%20Platforms)
 * [CS-250 Software Development Lifecycle](https://github.com/razzledazzle061980/Software-Engineering-Portfolio/tree/master/CS-250%20Software%20Development%20Lifecycle)
 * [CS-250 Data Structures And Algorithms](https://github.com/razzledazzle061980/Software-Engineering-Portfolio/tree/master/CS-260%20Data%20Structures%20and%20Algorithms)
-* [IT-140 Intro To Scripting]()
+* [IT-140 Intro To Scripting](https://github.com/razzledazzle061980/Software-Engineering-Portfolio/tree/master/IT-140%20Intro%20To%20Scripting)
 * [IT-145 Foundations In Application Development]()
 
