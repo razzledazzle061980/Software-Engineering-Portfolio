@@ -1,4 +1,4 @@
-## <u>CS-210 Programming Languages</u>
+## <u>IT-145 Foundations In Application Development</u>
 <dd>In this course we learned the industry standards for solving problems in business applications.  We learned to write code logically, structurally and organized code according to the OOP concepts.</dd>
 
 
