@@ -7,7 +7,7 @@
 </dl>
 
 1.  <b>Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?</b>
-       The Gamin Room is the client, it doesn't say anything more about the client.  The type of software they want designed is a web-based game
+       <br />The Gamin Room is the client, it doesn't say anything more about the client.  The type of software they want designed is a web-based game
 2.  <b>What did you do particularly well in developing this documentation?</b>
      I'm not sure I did anything particularly well in developing this documentation.  I am very well versed in html and css but do not have much experience with markdown.
 3.  <b>What about the process of working through a design document did you find helpful when developing the code?</b>
