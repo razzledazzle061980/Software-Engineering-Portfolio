@@ -1,7 +1,10 @@
 <h1 align="center"><u>Software Engineering Portfolio</u></h1>
 
-<h3 align="center">Having a love in technology and an interest for creating applications, I decided to \n" + "get my Bachelor's in Software Engineering so I can use my talent and knowledge to\n" + "develop applications that may be beneficial to users.</h3>
-\
+<d1>
+    <dd>This portfolio contains the assignments and projects completed while attending Southern New Hampshire University.  The documents contained within this repository is laid out by class and then by module (1 module = 1 week).  The majority of the works inside the portfolio is in Java, C++ and Python.  This portfolio is temporary until the permanent portfolio is complete.  </dd>
+</d1>
+
+
 - 🌱 I’m currently learning **System Analysis and Design, Computational Graphics and Visualization and Software Security**
 
 - 📫 How to reach me **razzledazzle061980@gmail.com**
