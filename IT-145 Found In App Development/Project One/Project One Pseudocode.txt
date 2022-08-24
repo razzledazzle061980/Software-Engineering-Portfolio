@@ -1,0 +1,76 @@
+// Eric Wallace
+// Milestone 1-6: Pseudocode and Flowchart
+// IT-145-J2003
+
+/**
+*  Pet Check-In
+   The method for the pet check in process should meet the following criteria:
+    • Determine if the pet is a dog or a cat and check for boarding space.
+    • There are 30 spaces for dogs and 12 for cats. Pet BAG will need to be able to adjust these counts
+        as the shop grows.
+    • If there is space for a new pet, collect the appropriate information. For returning pets, update
+        the information as needed.
+    • Gather information on the length of the stay.
+    • Determine if the pet owner would like the pet to be groomed. Only dogs can be groomed and
+        only if they stay two or more days.
+    • Assign the pet to a space.
+*/
+
+SET boolean existingPet = FALSE;
+SET int numOfDays = 0;
+
+START OF PROGRAM
+    USER chooses to start a new boarding by clicking a button NEW BOARDING
+    GET from an INPUT prompting user "Has pet been here before" AND TO SELECT (YES or NO) on dropdown 
+    SET existingPet variable to value of dropdown
+
+    IF existingPet == YES THEN
+        GET petName from INPUT prompting user "Enter name of pet"  
+        CALL setPetName()
+        GET pet details based on petName
+        OUTPUT pet details 
+        USER can UPDATE pet information
+    ELSE 
+        OUTPUT new pet FORM 
+        GET FROM INPUTS prompting user for pet name, age and type
+        CALL FUNCTION Pet(petName, petAge, petType) to create a new pet
+        OUTPUT pet details
+    END IF
+
+    IF petType = Dog THEN
+        IF CALL getDogSpaces() < 30 THEN
+            CREATE new Dog for new dog to be boarded
+            CALL setDogSpaceNumber(dogSpaces + 1)
+            CALL setDogSpaces(dogSpaceNumber)
+            GET a integer from an INPUT prompting for the number of days for boarding
+            SET numOfDays variable to value of INPUT
+            CALL setDaysStay(numOfDays)
+            GET from an INPUT prompting user "Would owner like pet to be groomed?" AND TO SELECT (YES or NO) on dropdown 
+            IF SELECT value is YES  THEN
+                IF getDaysStay() >= 2 THEN
+                    CALL setGrooming(TRUE)
+                ELSE
+                    OUTPUT petName "must stay 2 or more days for grooming"
+                    CONTINUE
+                END IF
+            END IF
+            OUTPUT numOfDays
+        ELSE 
+            OUTPUT "No dog spaces available"
+            RETURN to START
+        END IF
+    ELSE
+         IF CALL getCatSpaces() < 12 THEN
+            CREATE new Cat for new cat to be boarded
+            CALL setCatSpaceNumber(catSpaces + 1)
+            CALL setCatSpaces(catSpaceNumber)
+            GET a integer from an INPUT prompting for the number of days for boarding
+            SET numOfDays variable to value of INPUT
+            CALL setDaysStay(numOfDays)
+            OUTPUT numOfDays
+        ELSE 
+            OUTPUT "No cat spaces available"
+            RETURN to START
+        END IF
+    END IF
+END PROGRAM
