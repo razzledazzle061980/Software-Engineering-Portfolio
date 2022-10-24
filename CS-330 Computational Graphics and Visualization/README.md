@@ -12,7 +12,7 @@
 
 1.  How do I approach designing software?  
    I approach designing software with an open mind.  I developed new skills in C++ which I used in this course which helped me create the scene in this course.
-2.  How do I approach developing programs?
+2.  How do I approach developing programs?  
    Using the knowledge gained through the current and previous milestones allowed me to address and complete the then current milestone.
-3.  How can computer science help me in reaching my goals?
+3.  How can computer science help me in reaching my goals?  
    It allowed my C++ skills to increase and I learned new techniques which will allow me to develop better C++ code in the future.
