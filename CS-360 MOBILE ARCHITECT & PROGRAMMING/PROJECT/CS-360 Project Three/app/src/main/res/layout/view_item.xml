@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    android:backgroundTintMode="src_in"
+    tools:context=".Items.ItemActivity"
+    android:theme="@style/Theme.Project3">
+
+    <Button
+        android:id="@+id/itemDeleteBtn"
+        style="@style/cancelButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/standard_button"
+        android:backgroundTint="@color/error"
+        android:text="@string/Delete"
+        app:layout_constraintEnd_toStartOf="@+id/itemSaveBtn"
+        app:layout_constraintTop_toBottomOf="@+id/itemPriceInput"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <include
+        android:id="@+id/itemInclude"
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Inventory List"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/itemTitleInput"
+        style="@style/textInput"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:hint="Enter Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemProfilePic"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/itemTitleEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/itemDescInput"
+        style="@style/textInput"
+        android:layout_marginStart="32dp"
+        android:hint="Enter Description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemTitleInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/itemDescEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/itemQuantityInput"
+        style="@style/textInput"
+        android:layout_marginStart="32dp"
+        android:hint="Quantity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemDescInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/itemQuantityEdit"
+            style="@style/textEdit"
+            android:inputType="numberSigned"
+            android:numeric="integer"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/itemPriceInput"
+        style="@style/textInput"
+        android:layout_marginStart="32dp"
+        android:hint="Price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemQuantityInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/itemPriceEdit"
+            style="@style/textEdit"
+            android:inputType="number"
+            android:numeric="decimal"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/itemSaveBtn"
+        style="@style/standardButtonStyle"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/primaryLight"
+        android:text="@string/save"
+        android:textColor="@color/background"
+        android:textColorHighlight="@color/primaryLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemPriceInput"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/itemProfilePic"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemInclude"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ToggleButton
+        android:id="@+id/itemFavBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/favorite"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemInclude" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    android:backgroundTintMode="src_in"
+    tools:context=".User.RegisterActivity"
+    android:theme="@style/Theme.Project3">
+
+    <include
+        layout="@layout/toolbar_main"
+        app:title="App Registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstNameInput"
+        style="@style/textInput"
+        android:layout_marginTop="32dp"
+        android:hint="@string/firstName"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMain"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastNameInput"
+        style="@style/textInput"
+        android:hint="@string/lastName"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastNameEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailAddressInput"
+        style="@style/textInput"
+        android:hint="@string/emailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailAddressEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameInput"
+        style="@style/textInput"
+        android:hint="@string/username"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameEdit"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginPasswordInput"
+        android:hint="@string/password"
+        style="@style/textInput"
+        app:layout_constraintTop_toBottomOf="@+id/usernameInput"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/primary"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEdit"
+            android:inputType="textPassword"
+            style="@style/textEdit"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmPasswordInput"
+        style="@style/textInput"
+        android:hint="@string/confirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/loginPasswordInput"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/primary"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmPasswordEdit"
+            style="@style/textEdit"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/itemSaveBtn"
+        style="@style/secondaryButtonStyles"
+        android:layout_marginTop="56dp"
+        android:text="@string/register"
+        android:textColorHighlight="@color/primaryLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

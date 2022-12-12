@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    android:backgroundTintMode="src_in"
+    android:theme="@style/Theme.Project3"
+    tools:context=".ui.register.RegisterActivity">
+
+    <include
+        android:id="@+id/toolbarMain"
+        layout="@layout/toolbar_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="App Registration"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarMain"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstNameInput"
+        style="@style/textInput"
+        android:hint="@string/firstName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameText"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameEdit"
+            style="@style/textEdit"
+            android:hint="First Name"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastNameInput"
+        style="@style/textInput"
+        android:hint="@string/lastName"
+        app:layout_constraintTop_toBottomOf="@id/firstNameInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastNameEdit"
+            style="@style/textEdit"
+            android:hint="Last Name"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailAddressInput"
+        style="@style/textInput"
+        android:hint="Email Address"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailAddressEdit"
+            style="@style/textEdit"
+            android:hint="Email Address"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/secondaryButtonStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Save"
+        android:textColorHighlight="@color/primaryLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordChange" />
+
+    <TextView
+        android:id="@+id/passwordChange"
+        style="@style/textView"
+        android:layout_marginTop="8dp"
+        android:text="@string/passwordChange"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressInput"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
