@@ -12,16 +12,16 @@
     success registrations, users could login to the application which would take them to the inventory items page.  The users had the ability to add 
     new items, edit existing items and delete items.  All of which was functional in the application.
     
-    The application also had feature such as detecting a users last login and if the user had last logged in within 30 minutes it would automatically
-    them back in taking them to the items page.  It has a remember me so if checked the users username would automatically be inserted the next time
-    they opened the application.
+    The application also had feature such as detecting a users last login and if the user had last logged in within 30 
+    minutes it would automatically them back in taking them to the items page.  It has a remember me so if checked 
+    the users username would automatically be inserted the next time they opened the application.
   </dd>
   
   
 1.  Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address? 
-    The needs for the applications was to allow users to store inventory items in the application, the users should be able
+    <dd>The needs for the applications was to allow users to store inventory items in the application, the users should be able
     to add and remove items, they should be able to edit existing items with the ability to update the number of items in stock.  
-    The application should also support the features of being able to login to the application to access their inventory.
+    The application should also support the features of being able to login to the application to access their inventory.</dd>
 2.  What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in
     mind? Why were your designs successful?  
     The screens necessary were as follows:  login, register, item, new/edit item.  My UI design kept users in mind because it delievered
