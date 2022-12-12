@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module 6</string>
+    <string name="des_compass">Compass used for showing direction</string>
+    <string name="des_needle">Needle used for showing north</string>
+    <string name="des_degree">Degrees to indicate direction of travel</string>
+    <string name="txt_longtitude">84° 52\' 31.8144\'\' W</string>
+    <string name="txt_latitude">35° 9\' 35.532\'\' N</string>
+</resources>

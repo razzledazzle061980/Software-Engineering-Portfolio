@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtDegree" type="dimen">parent_content / 50%</item>
+</resources>
