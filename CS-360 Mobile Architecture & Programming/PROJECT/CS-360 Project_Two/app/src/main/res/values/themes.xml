@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProjectTwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorPrimaryVariant">@color/primaryLight</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accentVariant</item>
+        <item name="colorOnSecondary">@color/primaryDark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorControlNormal">?attr/colorPrimary</item>
+        <item name="colorControlActivated">?attr/colorSecondary</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorAccent">?attr/colorSecondary</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+        <item name="android:textColorHint">?attr/colorPrimaryVariant</item>
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:textColorHighlight">?attr/colorSecondary</item>
+        <item name="android:textColorLink">?attr/colorPrimary</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+</resources>
