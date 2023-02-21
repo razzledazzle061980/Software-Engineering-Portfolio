@@ -4,14 +4,9 @@
 <dl>
     <dt><h4><u>Projects Overview</u></h4></dt>
   <dd>
-    <dd>
-      This course solely focused on the C++ programming language and interacting with a Texas Instrument CC3220S development board. For the final project we were task with creating an application that would interface with microcontrollers to act as a thermostat.  
-        * Learned how to use GPIO, timers, interrupts to illuminate LEDs, output message via serial     
-          connection and receive button input.
-        * Discovered and utilized state machines and learned how they can be used to maintain the state of  
-          various peripherals.
-        * Implemented a task scheduler using timers that would simultaneously execute multiple tasks, using  
-          button interrupts the desired temperature of the thermostat could be set and an LED showed the status.
+      This course solely focused on the C++ programming language and interacting with a Texas Instrument CC3220S development board. For the final project we were task with creating an application that would interface with microcontrollers to act as a thermostat.   
+</dd>
 
-    </dd>
- </dd>
+* Learned how to use GPIO, timers, interrupts to illuminate LEDs, output message via serial connection and receive button input. 
+* Discovered and utilized state machines and learned how they can be used to maintain the state of various peripherals.
+* Implemented a task scheduler using timers that would simultaneously execute multiple tasks, using button interrupts the desired temperature of the thermostat could be set and an LED showed the status.          
