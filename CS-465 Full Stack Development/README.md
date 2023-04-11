@@ -15,26 +15,36 @@
 
 ---
 
-<dt><h4><u>Module 8-1</u></h4></dt>  
+# Module 8-1  
+## Architecture  
 
-   ## Architecture
-   ---
+* **Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).**  
 
-  <dt>Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).</dt>
-<dd>Express framework was used as the web server to serve the web pages for the static HTML site.  Angular was used in tandem with JavaScript to create the SPA.
-</dd> 
+   Express framework was used as the web server to serve the web pages for the static HTML site.  Angular was used on the admin site which is a single-page application and utilized the mongoose framework for interacting with the MongoDB database.  JavaScript was used on both the client-side site and the admin site to dynamically interact with HTML elements.
 
-* **Why did the backend use a NoSQL MongoDB database?**
-<dd>MongoDB was used because it is lightweight, easy to implement with Angular, Express, NodeJS and JavaScript. </dd>
+* **Why did the backend use a NoSQL MongoDB database?**  
 
+   MongoDB was used because it is lightweight, easy to implement with Angular, Express, NodeJS and JavaScript, and because of its ability to scale. 
 
-* **How do you approach a problem as a computer scientist?  How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?**   
-<dd>As a computer scientist I would approach a problem by first stating what the problem is and the desired result.  From there determine the best steps to take in order to resolve the problem and reach the desired outcome.  My approach to the assignments in this course has not differed from the approach taken in other courses.</dd>  
-  
-<dd>In the future I would use the same techniques I currently use and have used in the past. Basically use the SDLC (Software Development Lifecycle) approach, get the requirements for the database including specifics as to the database type, programming languages and integreations, design the database using the requirements, create the database based on the design, test the database using the requirements set forth in the gathering stage and finally deliver the product to the client.</dd>  
+## Functionality
 
-* **What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?**
+* **How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?**
+   JSON is used 
+   
+   JavaScript is a programming language used in most websites.  While both JSON and JavaScript objects store data, JavaScript can only be used in JavaScript while JSON is independent of any programming language.  In our application, JSON is used to render the information shown in the static HTML pages of the client facing site, on the backend it is used to supply the database schema to the MongoDB and seed the database with a set of default records.
+   
+* **Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.**
 
-<dd>Computer Scientists solve problems by designing and developing software or hardware used to solve problem in various different technologies.  One of the most important jobs a computer scientist does is to develop or design model for interaction between people and software or computers.</dd>
+   An example of when I refactored code to improve functionality and efficiency would be the refactorization of the trip listing to use MongoDB and making use of cards to show the trips.  By showing trips as a card makes them more aesthically pleasing and more functional.  Using static HTML and JSON to render the page makes it more difficult to change the content whereas utilizing MongoDB and Angular to create modules reduces the size of an application and reduces the amount of errors encountered while making it more efficient.
 
-<dd>Computer scientist essentially make our lives easier by solving problems that make things difficult.  So for the project in this course the goal would be to make it easier for the client to find all animals applicable for a certain type of rescue team.</dd>
+## Testing
+
+* **Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.**
+
+   One method of testing an API is with the use of an application like Postman.  Such software allows for testing just about every aspect of an API, even after security has been implemented.  Making use of frameworks like JSON Web Tokens one can test authentication by simulating login, register and logout functionality.  Methods are the server-side actions used to provide authentication and registration to users.  Endpoints are the individual assets in which users access a web application.  Security is which is used to restrict access to certain web resources without valid authentication.  Another way of providing security is to separate a web application using middleware and making use of an API server.
+
+## Reflection
+
+* **How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?**
+
+   This course taught me how to use Angular at a basic level which only adds to my skills which ultimately helps me reach my professional goals.  Using MongoDB throughout this course allowed me to strengthen my skills on MongoDB.  The knowledge gained from this course most definitely makes me more marketable in my career field.
