@@ -1,0 +1,123 @@
+[
+  {
+          "code": "GALR210214",
+          "name": "Gale Reef",
+          "length": "4 nights / 5 days",
+          "start": "2021-02-14T08:00:00Z",
+          "resort": "Emerald Bay, 3 stars",
+          "perPerson": "799.00",
+          "image": "reef1.jpg",
+          "description": "<p>Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p><p>Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem ullamcorper vitae laoreet.</p>"
+        },
+        {
+          "code": "DAWR210315",
+          "name": "Dawson's Reef",
+          "length": "4 nights / 5 days",
+          "start": "2021-03-15T08:00:00Z",
+          "resort": "Blue Lagoon, 4 stars",
+          "perPerson": "1199.00",
+          "image": "reef2.jpg",
+          "description": "<p>Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet aliquet quis, tristique quis nisl. Curabitur odio lacus, blandit ut hendrerit</p><p>vulputate, vulputate at est. Morbi aliquet viverra metus eu consectetur. In lorem dui, elementum sit amet convallis ac, tincidunt vel sapien.</p>"
+        },
+        {
+          "code": "CLAR210621",
+          "name": "Claire's Reef",
+          "length": "4 nights / 5 days",
+          "start": "2021-06-21T08:00:00Z",
+          "resort": "Coral Sands, 5 stars",
+          "perPerson": "1999.00",
+          "image": "reef3.jpg",
+          "description": "<p>Donec sed felis risus. Nulla facilisi. Donec a orci tellus, et auctor odio. Fusce ac orci nibh, quis semper arcu. Cras orci neque, euismod et accumsan ac, sagittis molestie lorem. Proin odio sapien, elementum at tempor non.</p><p>Vulputate eget libero. In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis.</p>"
+        },
+    {
+  "code": "GSZ2549970",
+  "name": "Tamel",
+  "length": "5 nights/6 days",
+  "start": "10/03/2023",
+  "resort": "Tamel Resort",
+  "perPerson": "1807.99",
+  "image": "resort1.png",
+  "description": "<p>Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.</p><p>Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.</p><p>Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.</p>"
+}, {
+  "code": "NZG4579333",
+  "name": "Cobre",
+  "length": "6 nights/7 days",
+  "start": "12/08/2023",
+  "resort": "Cobre Resort",
+  "perPerson": "2463.99",
+  "image": "resort5.png",
+  "description": "<p>In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.</p><p>Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.</p>"
+}, {
+  "code": "KUC3840383",
+  "name": "Nanyue",
+  "length": "3 nights/4 days",
+  "start": "12/12/2023",
+  "resort": "Nanyue Getaway",
+  "perPerson": "982.99",
+  "image": "resort2.png",
+  "description": "<p>Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.</p><p>Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.</p>"
+}, {
+  "code": "WQO7241324",
+  "name": "Santa Cruz Cabrália",
+  "length": "4 nights/5 days",
+  "start": "07/25/2023",
+  "resort": "Santa Cruz Cabrália Resort",
+  "perPerson": "1945.99",
+  "image": "resort1.png",
+  "description": "<p>Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.</p><p>Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.</p><p>Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>"
+}, {
+  "code": "TCJ6435595",
+  "name": "Viçosa",
+  "length": "4 nights/5 days",
+  "start": "08/15/2023",
+  "resort": "Viçosa Resort",
+  "perPerson": "1011.99",
+  "image": "resort4.png",
+  "description": "<p>Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.</p><p>Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.</p>"
+}, {
+  "code": "OLZ0603869",
+  "name": "Strawczyn",
+  "length": "4 nights/5 days",
+  "start": "12/06/2023",
+  "resort": "Strawczyn Getaway",
+  "perPerson": "2102.99",
+  "image": "resort4.png",
+  "description": "<p>Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.</p><p>Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.</p>"
+}, {
+  "code": "YHO4131386",
+  "name": "Rancabolang",
+  "length": "6 nights/7 days",
+  "start": "08/19/2023",
+  "resort": "Rancabolang Resort",
+  "perPerson": "2286.99",
+  "image": "resort3.png",
+  "description": "<p>Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.</p><p>Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.</p>"
+}, {
+  "code": "PIX7713620",
+  "name": "Anxi",
+  "length": "3 nights/4 days",
+  "start": "08/17/2023",
+  "resort": "Anxi Resort",
+  "perPerson": "1295.99",
+  "image": "resort2.png",
+  "description": "<p>Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.</p><p>Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.</p>"
+}, {
+  "code": "PDW0262562",
+  "name": "Lyeskawka",
+  "length": "4 nights/5 days",
+  "start": "05/27/2023",
+  "resort": "Lyeskawka Resort",
+  "perPerson": "1622.99",
+  "image": "resort1.png",
+  "description": "<p>Sed ante. Vivamus tortor. Duis mattis egestas metus.</p><p>Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.</p><p>Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.</p>"
+}, {
+  "code": "SXG4571830",
+  "name": "Paraguarí",
+  "length": "3 nights/4 days",
+  "start": "10/10/2023",
+  "resort": "Paraguarí Resort",
+  "perPerson": "2344.99",
+  "image": "resort4.png",
+  "description": "<p>Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.</p><p>Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.</p><p>Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.</p>"
+}
+]
