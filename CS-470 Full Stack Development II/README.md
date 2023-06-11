@@ -17,7 +17,7 @@
 <dt><h4><u>Module 8-1 Final Reflection</u></h4></dt>  
 
 * **Explain how this course will help you in reaching your professional goals.**   
-<dd>This course has increased my skills which makes me more marketable which I hope ultimately will help me reach my professional goals.</dd>
+  <dd>This course has increased my skills which makes me more marketable which I hope ultimately will help me reach my professional goals.</dd>
 
 
 * **What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?**   
